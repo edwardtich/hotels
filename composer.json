@@ -1,0 +1,62 @@
+{
+  "name": "yiisoft/yii2-app-advanced",
+  "description": "Yii 2 Advanced Application Template",
+  "keywords": [
+    "yii2",
+    "framework",
+    "advanced",
+    "application template"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*",
+    "yiisoft/yii2-swiftmailer": "*",
+    "kartik-v/yii2-widget-datepicker": "=1.4.4",
+    "kartik-v/yii2-widget-fileinput": "=1.0.6",
+    "intervention/image": "dev-master",
+    "vova07/yii2-imperavi-widget": "*",
+    "2amigos/yii2-file-upload-widget": "~1.0",
+    "dektrium/yii2-user": "0.9.*@dev",
+    "dektrium/yii2-rbac": "dev-master",
+    "kuakling/yii2-materialize": "dev-master",
+    "anmaslov/yii2-autocomplete-widget": "*",
+    "himiklab/yii2-recaptcha-widget": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*"
+  },
+  "config": {
+    "sort-packages": true,
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

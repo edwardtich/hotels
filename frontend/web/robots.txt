@@ -1,0 +1,5 @@
+User-agent: *
+Clean-param: per-page
+Clean-param: start
+Clean-param: ref
+Host: marinsgroup.ru

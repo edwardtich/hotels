@@ -1,0 +1,126 @@
+.menu-fixed {
+    background-color: #fff !important;
+    position: fixed !important;
+    top: 0 !important;
+    height: 60px;
+}
+.menu-fixed .header__navbar_logo {
+    width: 48px!important;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+.menu-fixed  >li {
+    height: 60px;
+}
+.menu-fixed.has-slideshow >li >a,
+.menu-fixed >li >a {
+    line-height: 60px;
+}
+.menu-fixedul.menu li a {
+    margin-top: 15px;
+}
+.title-news{
+    font-family: cinzelrus;
+    color: #e1ad4f;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.title-news:hover{
+    color: rgb(216, 152, 37);
+}
+.published{
+    border-bottom: solid 1px #e9e9e9;
+    padding-bottom: 20px;
+}
+.block_news_img {
+    min-height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.block_news_text {
+    height: 390px;
+    padding: 50px 15px;
+    position: relative;
+    transition: 300ms;
+    color: #fff;
+}
+.block_news_text:hover{
+    background-color: rgba(225,173,79,0.9);
+}
+
+.block_news_text:before {
+    content: "";
+    transition: 300ms;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+    background: transparent;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 20%, rgba(255, 255, 255, 0) 80%);
+}
+
+.block_news_link_icon {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    z-index: 999;
+    transition: 300ms;
+}
+
+.block_news_link_icon a {
+    background-color: #493e3e;
+    display: table;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.block_news_link_icon a:hover {
+    background-color: rgba(73, 62, 62, 0.7);
+    transform: scale(1.2);
+}
+
+.block_news_link_icon a i {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.block_news_content {
+    position: absolute;
+    bottom: 30px;
+}
+
+.block_news_content .entry-meta {
+    margin: 0 -10px;
+}
+
+.entry-meta span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.entry-title {
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.entry-title a {
+    color: #fff;
+}
+.pt-100{
+    padding: 100px 0 0;
+}
+.mt-100{
+    margin: 100px 0 0;
+}
